@@ -12,7 +12,7 @@ export default function Home() {
           height={38}
           priority
         />
-        <h1>The Next.js app deployed on aws</h1>
+        <h1>{`The Next.js app deployed on aws port ${process.env.NEXT_PUBLIC_PORT}`}</h1>
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
             Get started by editing{" "}
